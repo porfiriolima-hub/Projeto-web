@@ -3,7 +3,16 @@
 
       body{background-image:url(https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
             
-          
+      .container{
+        display: grid;
+        grid-template-areas:
+        "header"
+        ".paragrafo"
+        ".tabela, lista"
+                ;
+
+
+      }  
       }
       h1{
         border: 5px solid rgb(226, 16, 16);
@@ -40,7 +49,7 @@
       }
 
       section{
-        display: flexbox;
+        
         color: rgb(45, 73, 217);
 
       }
@@ -77,14 +86,15 @@
           align-content: center;
         }
 
-        .tabela{
+        .tabela,.lista {
+          display: flex;
           text-align: center;
           margin: 20px 120px 20px 120px;
           
 
         }
-
-        .lista, .formulario {
+ 
+        .formulario {
           margin-left: 200px;
           font-size: 18px;
 
