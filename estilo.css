@@ -3,17 +3,22 @@
 
       body{background-image:url(https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
             
+        
+      }
+
       .container{
         display: grid;
         grid-template-areas:
         "header"
-        ".paragrafo"
-        ".tabela, lista"
-                ;
+        ".paragrafo";}
 
+        .tabelalinha{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
 
-      }  
-      }
+        }
       h1{
         border: 5px solid rgb(226, 16, 16);
         height: 6%;
@@ -40,13 +45,13 @@
 
       }
 
-      p{
+      /*p{
         width: 50%;
         height: 50%;
         float: left;
         margin-right: 50px;
         
-      }
+      }*/
 
       section{
         
@@ -86,13 +91,13 @@
           align-content: center;
         }
 
-        .tabela,.lista {
+        /*.tabela,.lista {
           display: flex;
           text-align: center;
           margin: 20px 120px 20px 120px;
           
 
-        }
+        }*/
  
         .formulario {
           margin-left: 200px;
